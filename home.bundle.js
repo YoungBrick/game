@@ -125,7 +125,7 @@ exports.push([module.i, ".about-game {\r\n\tposition: fixed;\r\n\toverflow: hidd
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".screens {\r\n    height: 70%;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n}\r\n\r\n.screen-card {\r\n    flex-shrink: 0;\r\n    width: 384px;\r\n    height: auto;\r\n    border: 1px solid #fff;\r\n    border-radius: 10px;\r\n}\r\n", ""]);
+exports.push([module.i, ".screens {\r\n\theight: 70%;\r\n\twidth: 100%;\r\n\tdisplay: flex;\r\n\tflex-wrap: wrap;\r\n\tjustify-content: space-around;\r\n\talign-items: center;\r\n}\r\n\r\n.screen-card {\r\n\tflex-shrink: 0;\r\n\twidth: 384px;\r\n\theight: auto;\r\n\tborder: 1px solid #fff;\r\n\tborder-radius: 10px;\r\n}\r\n", ""]);
 
 
 
