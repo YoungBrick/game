@@ -125,7 +125,7 @@ exports.push([module.i, ".scale {\r\n  height: 100%;\r\n  display: flex;\r\n  fl
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".gameover-modal {\r\n    width: 50%;\r\n    height: 70%;\r\n    border-radius: 25px;\r\n    background: linear-gradient(3deg, rgba(3, 4, 12, 0.99) 0%, rgba(4, 6, 19, 0.99) 100%);\r\n    margin: 110px 25%;\r\n    position: absolute;\r\n    top: 0;\r\n    z-index: 2;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: space-around;\r\n}\r\n \r\n.gameover-modal h2 {\r\n    font-size: 40px;\r\n}\r\n\r\n.gameover-modal p {\r\n    font-size: 30px\r\n}\r\n\r\n.ending-btn {\r\n  width: 20%;\r\n  height: 40px;\r\n  border: 1px solid #fff;\r\n  border-radius: 15px;\r\n  cursor: pointer;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.ending-button:hover,\r\n.ending-button:focus {\r\n  font-size: 45px;\r\n  background: linear-gradient(3deg, rgb(3, 4, 12) 0%, rgb(4, 6, 19) 100%);\r\n  cursor: pointer;\r\n  outline: none;\r\n}", ""]);
+exports.push([module.i, ".gameover-modal {\r\n  width: 50%;\r\n  height: 70%;\r\n  border-radius: 25px;\r\n  background: linear-gradient(3deg, rgba(3, 4, 12, 0.99) 0%, rgba(4, 6, 19, 0.99) 100%);\r\n  margin: 110px 25%;\r\n  position: absolute;\r\n  top: 0;\r\n  z-index: 2;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: space-around;\r\n}\r\n\r\n.gameover-modal h2 {\r\n  font-size: 40px;\r\n}\r\n\r\n.gameover-modal p {\r\n  font-size: 30px\r\n}\r\n\r\n.ending-btn {\r\n  width: 20%;\r\n  height: 40px;\r\n  border: 1px solid #fff;\r\n  border-radius: 15px;\r\n  cursor: pointer;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.ending-button:hover,\r\n.ending-button:focus {\r\n  font-size: 45px;\r\n  background: linear-gradient(3deg, rgb(3, 4, 12) 0%, rgb(4, 6, 19) 100%);\r\n  cursor: pointer;\r\n  outline: none;\r\n}", ""]);
 
 
 
@@ -2264,7 +2264,6 @@ __webpack_require__.r(__webpack_exports__);
 
 function generateTranslate() {
   var checkingWord = Object(_randomizer_index__WEBPACK_IMPORTED_MODULE_2__["default"])(_vocabulary_index__WEBPACK_IMPORTED_MODULE_0__["vocabulary"]);
-  console.log(checkingWord);
   var word = Object.keys(checkingWord);
   var res = checkingWord[word[0]];
   var task = document.createElement('div');
@@ -3089,9 +3088,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function playerInfo() {
-  //Remove this lines before production
-  // new Game('Kisa').render();
-  //return;
   var wrapper = document.createElement('section');
   wrapper.classList.add('modal-info');
   var head = document.createElement('h1');
